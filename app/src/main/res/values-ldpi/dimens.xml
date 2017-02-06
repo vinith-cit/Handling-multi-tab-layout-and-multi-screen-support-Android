@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_pager_height">60dp</dimen>
+    <dimen name="child_image_size">45dp</dimen>
+    <dimen name="add_to_cart_icon_size">15dp</dimen>
+    <dimen name="button_height">12.5dp</dimen>
+    <dimen name="margin_five_dp">2.5dp</dimen>
+    <dimen name="margin_ten_dp">5dp</dimen>
+    <dimen name="margin_half_dp">0.25dp</dimen>
+    <dimen name="margin_eight_dp">4dp</dimen>
+    <dimen name="record_image_size">10dp</dimen>
+
+
+
+
+
+
+</resources>

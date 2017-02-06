@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="@dimen/margin_half_dp"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/iv_trending"
+        android:layout_width="@dimen/child_image_size"
+        android:layout_height="@dimen/child_image_size"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/ic_mac_book" />
+
+    <TextView
+        android:id="@+id/tv_trending"
+        android:layout_width="@dimen/child_image_size"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_trending"
+        android:layout_centerHorizontal="true"
+        android:ellipsize="end"
+
+
+        android:maxLines="2"
+        android:text="13-inch Apple Mac book pro gvvgvgv"
+        android:textSize="11sp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/button_height"
+        android:layout_below="@+id/tv_trending"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin_ten_dp"
+        android:layout_marginTop="@dimen/margin_five_dp"
+        android:background="@drawable/rounded_corner_btn"
+        android:text="@string/winner"
+
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="11sp" />
+
+
+</RelativeLayout>
